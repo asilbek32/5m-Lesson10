@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
-    
+
+<body class="bg-[#F2F2F2]">
+    <div class="container max-w-[1520px] mx-auto">
+        <div class="flex justify-between h-[64px] px-[10px] sm:px-[20px] bg-[#FFFFFF] shadow-sm lg:hidden">
+            <div class="flex items-center gap-[14px]">
+                <img src="./assets/menu.svg" alt="">
+                <img src="./assets/Logo.svg" alt="">
+            </div>
+            <div class="flex items-center gap-[14px]">
+                <img src="./assets/iconsphone.svg" alt="">
+                <div class="relative">
+                    <img src="./assets/ca.svg" alt="">
+                    <div
+                        class="bg-[var(--color-ECBA00)] w-[18px] h-[18px] rounded-[50%] flex justify-center items-center absolute top-[-2px] left-[9px]">
+                        <span class="text-[var(--color-333333)] font-extrabold text-[10px]">2</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="lg:flex items-center justify-between h-[60px] px-[20px] shadow-sm">
+            <img src="./assets/Vector.svg" alt="">
+            <div class="flex items-center gap-[6px]">
+                <img src="./assets/location.svg" alt="">
+                <p class="text-[var(--color-333333)] text-[13px] font-medium">Йошкар-Ола</p>
+            </div>
+            <div class="flex gap-[12px]">
+                <div class="flex items-center gap-[2px]">
+                    <p class="text-[13px] text-[var(--color-333333)] font-normal">Oкомпании</p>
+                    <img src="./assets/bottomarrow.svg" alt="">
+                </div>
+
+                <a href="#" class="text-[13px] text-[var(--color-333333)] font-normal">Блог</a>
+                <a href="#" class="text-[13px] text-[var(--color-333333)] font-normal">Частые вопросы</a>
+                <a href="#" class="text-[13px] text-[var(--color-333333)] font-normal">Сервис и гарантия</a>
+                <a href="#" class="text-[13px] text-[var(--color-333333)] font-normal">Доставка и оплата</a>
+                <a href="#" class="text-[13px] text-[var(--color-333333)] font-normal">Дилерам</a>
+                <a href="#" class="text-[13px] text-[var(--color-333333)] font-normal">Контакты</a>
+
+            </div>
+            <div class="flex gap-[15px]">
+                <div>
+                    <p class="text-[16px] text-[#000000] font-medium">8 800 444-00-27</p>
+                    <p class="text-[#555555] text-[10px]">бесплатно по России</p>
+                </div>
+                <button class="text-[#000000] text-[10px] w-[125px] h-[36px] border-1 border-[#000000] rounded-[8px]">Заказать звонок</button>
+            </div>
+        </nav>
+    </div>
+
     <script src="./app.js"></script>
 </body>
+
 </html>
