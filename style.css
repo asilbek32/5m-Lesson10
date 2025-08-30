@@ -16,3 +16,9 @@
 button{
     cursor: pointer;
 }
+
+.ower {
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
